@@ -1,13 +1,3 @@
-#File Name:p06_0812242.py
-#Author:孫瑋澤
-#Email Address:kobe891207@gmail.com
-#Assignment Number:06
-#Description:The program will print draw a diagram of solar system
-#Last Change:2020/5/24
-#Anything Special:
-#畫出全部的行星
-
-
 import math
 import turtle
 
