@@ -3,7 +3,7 @@ import turtle
 
 class Sun:
     #one constructor
-    def __init__(self,iname,irad,im,itemp):
+    def __init__(self,iname,irad,im,itemp): #名稱、半徑、質量、溫度
         self.name=iname
         self.radius=irad
         self.mass=im
@@ -57,7 +57,7 @@ class Sun:
 #----------------------------------- 創太陽
 class Planet:
     #one constructor
-    def __init__(self,iname,irad,im,idist,ivx,ivy,ic):
+    def __init__(self,iname,irad,im,idist,ivx,ivy,ic): #半徑、質量、與太陽距離、x方向初速、y方向初速
         self.name=iname
         self.radius=irad
         self.mass=im
@@ -243,7 +243,7 @@ class SolarSystem:
 
     def movePlanets(self):
         G=.1
-        dt=.012
+        dt=.012 #時間變量
 
         for p in self.planets: #動行星
             #perform moveTo
@@ -310,7 +310,7 @@ def creatSSandAnimate():
 
     p=Planet("URANUS",60,6,1.5,0,0.95,"lightskyblue") #天王星
     ss.addPlanet(p)
-    ss.addEarth(p)
+    ss.addEarth(p) #衛星可以繞天王星
 
     p=Moon("MOON",16,1,1.7,0,2.4,"gold") #衛星
     ss.addMoon(p)
