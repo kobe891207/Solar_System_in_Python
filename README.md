@@ -88,6 +88,13 @@ Solar_System.py
 ```
 ## Results
 
+<p align="center">
+  <img src="image/Solar_System.gif" width="600"/>
+</p>
+
+<p align="center">
+  Real-time solar system simulation using Python.
+</p>
 
 ## How to Run
 ```bash
