@@ -11,12 +11,6 @@ This project uses object-oriented programming and basic gravity physics to simul
 * Real-time animation with turtle graphics
 * Sun, planet, and moon system
 
-## Tools
-* Python
-* Turtle Graphics
-* Object-Oriented Programming
-* Basic Physics Simulation
-
 ## Physics Concepts
 ### Velocity Update
 From the universal gravitation formula:
@@ -100,3 +94,9 @@ Solar_System.py
 ```bash
 python Solar_System.py
 ```
+
+## Tools
+* Python
+* Turtle Graphics
+* Object-Oriented Programming
+* Basic Physics Simulation
